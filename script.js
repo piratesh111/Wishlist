@@ -8,7 +8,6 @@ let todoList = localData || [];
 let showTodos = document.querySelector(".todos-container")
 
 
-/** Creating unique id function */
 
 function uid(){
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (param) {
